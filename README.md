@@ -3,7 +3,7 @@ An Order Book for a simple stock exchange.  A simulator is also provided.
 
 # Install
 1. Install [Python 3](https://wiki.python.org/moin/BeginnersGuide/Download)
-2. Use `pip` to install `sortedcontainers`. 
+2. Use [`pip`](https://pypi.org/project/pip/) to install [`sortedcontainers`](http://www.grantjenks.com/docs/sortedcontainers/). 
 
     `pip install sortedcontainers`
 
@@ -12,7 +12,7 @@ There are two running modes:
 
 1. Orders in a .csv file.  
    The simulator can be used to generate order files
-2. Orders streamed from a Named Pipe (Windows) or FIFO (other systems)
+2. Orders streamed from a [Named Pipe](https://docs.microsoft.com/en-us/windows/win32/ipc/named-pipes) (Windows) or [FIFO](http://man7.org/linux/man-pages/man7/fifo.7.html) (other systems)
 
 ## From CSV File
 `python order_book.py -f <orders file> -t <trades file>` 
