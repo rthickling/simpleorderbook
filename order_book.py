@@ -142,7 +142,7 @@ class OrderBook(object):
     def match(self, order, is_bid):
         """Match teh entered order with any matching orders already in the book.  Residual quantities on a partial fill
         are added to the book.
-        When orders ar matched (bids with asks or vice versa) they become trades and are written to the trade file"""
+        When orders are matched (bids with asks or vice versa) they become trades and are written to the trade file"""
         matches = []
         other_side, this_side, compare = (self.asks, self.bids, le) if is_bid else (self.bids, self.asks, ge)
         matched_orders_to_remove = []
