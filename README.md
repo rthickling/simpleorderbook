@@ -33,14 +33,12 @@ To generate orders from the simulator.
     `python order_book.py -p <pipe name> -t <trades file>`
 
 # Help
-Run
+Further details of features can be seen by running: 
 
 `python order_book.py --help`
 
 and
 
 `python order_simulator.py --help`
-
-for further details of arguments.
 
 Also, an example command line is provided in `order_simulator.py`
