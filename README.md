@@ -1,5 +1,5 @@
 # simpleorderbook
-An Order Book for a simple stock exchange
+An Order Book for a simple stock exchange.  A simulator is also provided.
 
 # Install
 1. Install [Python 3](https://wiki.python.org/moin/BeginnersGuide/Download)
