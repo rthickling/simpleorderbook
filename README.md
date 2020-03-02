@@ -42,3 +42,27 @@ and
 `python order_simulator.py --help`
 
 Also, an example command line is provided in `order_simulator.py`
+
+# Examples
+1. Generate some order data: 
+
+    `python order_simulator.py -g generated_orders.csv`
+
+2. Using the supplied `test_orders.csv`:
+
+    `python order_book.py -f test_orders.csv -t test_output.csv`
+
+3. Stream orders from generator to order book:
+    
+    In one terminal:
+
+    `python order_simulator.py -p order_pipe`
+
+    and in another:
+
+    `python order_book.py -p order_pipe -t streamed_output.csv`
+
+# Tests
+To run the tests execute:
+
+`python order_book_test.py`
