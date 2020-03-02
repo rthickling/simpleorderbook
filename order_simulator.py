@@ -177,6 +177,7 @@ def construct_arg_parser():
 
 
 def main():
+    """ Example command-line which can be executed within a debugger"""
     p = construct_arg_parser()
     execute(p.parse_args(
         "-g/home/richard/projects/OrderBook/orders_large_test.csv"

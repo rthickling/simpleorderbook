@@ -272,9 +272,6 @@ def main():
 
     execute(p.parse_args(get_orders_from_pipe_command_line.split()))
 
-    ###############################################################################################
-    # The required functionality: read orders from 'orders.csv' and write trades to 'trades.csv' #
-    ###############################################################################################
     orders_file = order_book_path/"orders.csv"
     trades_file = order_book_path/"trades.csv"
 
@@ -291,8 +288,6 @@ def main():
 
 
 if __name__ == '__main__':
-    # For the required functionality, make sure the module 'sortedcontainers' is installed with
-    #    pip3 install sortedcontainers
     # Create an appropriate orders.csv, then run
     #    python3 order_book.py -f orders.csv -t trades.csv
 
