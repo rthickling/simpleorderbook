@@ -279,13 +279,6 @@ def main():
 
     # execute(p.parse_args(get_orders_from_file_command_line.split()))
 
-    # Uncomment below to run through the provided small order files producing output in trades_tryN.csv
-
-    # for n in range(1, 5):
-    #     orders_file = order_book_path/f"orders{n}.csv"
-    #     trades_file = order_book_path/f"trades{n}.csv"
-    #     execute(p.parse_args(f"-t {trades_file} -f {orders_file}".split()))
-
 
 if __name__ == '__main__':
     # Create an appropriate orders.csv, then run
