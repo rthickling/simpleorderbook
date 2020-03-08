@@ -66,3 +66,6 @@ Also, an example command line is provided in `order_simulator.py`
 To run the tests execute:
 
 `python order_book_test.py`
+
+# Acknowledgements
+This was written by Richard Hickling and is available to be copied.  Attribution is appreciated.
